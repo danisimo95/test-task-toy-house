@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0 user-scalable=0"/>
+    <title>Test-Task-Moskalenko</title>
+    <link rel="icon" href="img/favicon.png" type="image/x-icon">
+    <link href="https://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">         
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header id="header" class="header">
+		<div class="container">
+			<div class="nav">
+          <div class="nav__logo">
+              <img src="img/logo.png" alt="logo" class="logo">
+          </div>
+          <div class="hamburger-menu">
+              <button class="burger " aria-label="open menu">
+                  <span class="burger-line"></span>
+                  <span class="burger-line"></span>
+                  <span class="burger-line"></span>
+                </button>
+            </div>
+			</div>
+      <div class="offer">
+          <div class="offer__text">
+              <h1>HELLO WORLD ! <br> My name is Ira</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus tristique vulputate ultrices ut mauris tellus at. Posuere sollicitudin odio tellus elit.</p>
+              <a href="#" class="btn">See Our Project</a>
+          </div>
+          <div class="offer__slide">
+              <img src="img/illustration.png" alt="illustration" class="offer__slide_img">
+          </div>
+      </div>
+		</div>
+	</header>
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about__slides">
+              <div class="about__slides_left">
+                <h2 class="about__title">What we do to help our client grow in digital era?</h2>
+                <div class="slide">
+                  <img src="img/1.png" alt="" class="slide__img">
+                  <h3>Make Your business <br> To Be Better Famous</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <a class="slide__link" href="#">Learn more <img src="img/arrow.png" alt="arrow"></a>              		
+              </div>
+              </div>
+              <div class="about__slides_right">
+                <div class="slide">
+                  <img src="img/3.png" alt="" class="slide__img">
+                  <h3>Bring Technology <br> To Your</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <a class="slide__link" href="#">Learn more <img src="img/arrow.png" alt="arrow"></a>              		
+              </div>
+                <div class="slide">
+                    <img src="img/2.png" alt="" class="slide__img">
+                    <h3>Build Your Digital Product That Suitable</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <a class="slide__link" href="#">Learn more <img src="img/arrow.png" alt="arrow"></a>              		
+                </div>
+              </div>
+            </div>
+            <div class="registration__block">
+                <h2 class="registration__title">Registration</h2>
+                <form id="registration___form" name="form" class="form">
+                    <div class="form__group">
+                        <label class="form__group_title" for="first-name">Name</label>
+                        <input 
+                        type="text" 
+                        id="first-name" 
+                        class="input-first-name" 
+                        placeholder="Your name"
+                        data-reg="[a-zA-Z]+" >
+                    </div>
+                    <div class="form__group">
+                        <label class="form__group_title" for="last-name">Surname</label>
+                        <input 
+                        type="text" 
+                        id="last-name" 
+                        class="input-last-name" 
+                        placeholder="Your surname"
+                        data-reg="[a-zA-Z]+">
+                    </div>
+                    <div class="form__group">
+                        <label class="form__group_title" for="phone-number">Phone number</label>
+                        <input 
+                        type="tel" 
+                        id="phone-number" 
+                        class="input-phone-number" 
+                        placeholder="+38 ___ ___ __ __"
+                        data-reg="\+38\d{10}">
+                        <p class="form__descr form__descr_mob">*Use only numbers</p>
+                    </div>
+                    <div class="form__group">
+                        <label class="form__group_title" for="email">Email</label>
+                        <input 
+                        type="email" 
+                        id="email" 
+                        class="input-email" 
+                        placeholder="email@email.com" 
+                        data-reg="^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$">
+                        <p class="form__descr form__descr_email">*Use only latin letters and characters ._-@</p>
+                    </div>
+                    <div class="form__group_checkbox">
+                        <input type="checkbox" id="confirm-action" class="checkbox-confirm-action">
+                        <label class="checkbox__title" for="confirm-action">I agree with The Terms of Use and with The Privacy Policy</label>
+                    </div>
+                    <button id="button" class="registration__button" type="submit">Register me!</button>
+                </form>
+            </div>
+		</div>
+    </section>
+       <!-- contact -->
+       <section class="page__contact contact">
+        <div class="contact__container container">
+          <div class="contact__body">
+            <div class="contact__content">
+              <h2 class="contact__title">Intersted to work <br> with our team?</h2>
+              <p class="contact__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            </div>
+            <a href="" class="contact__button">Let’s Talk</a>
+          </div>
+        </div>
+      </section>
+      <!-- footer -->
+    <footer class="footer">
+        <div class="footer__top ">
+          <div class="footer__main container">
+            <div class="footer__row">
+                <div class="footer__column">
+                    <div class="footer__label"><img src="img/footer-logo.png" alt=""></div>
+                      <div class="footer__contacts contacts-footer">
+                        <p class="contacts-footer__item contacts-footer__item_map">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <a href="tel:0912345678" class="contacts-footer__item contacts-footer__item_phone">+38 091 234 56 78</a>
+                        <a href="mailto:hello.ira@gmail.com" class="contacts-footer__item contacts-footer__item_email">hello.ira@gmail.com</a>
+                        </div>
+                  </div>
+            <!-- 01 -->
+            <div class="footer__column">
+              <div class="footer__label">About US</div>
+              <nav class="footer__menu menu-footer">
+                <ul class="menu-footer__list">
+                  <li class="menu-footer__item">
+                    <a href="#" class="menu-footer__link">About</a>
+                  </li>
+                  <li class="menu-footer__item">
+                    <a href="#" class="menu-footer__link">What We Do</a>
+                  </li>
+                  <li class="menu-footer__item">
+                    <a href="#" class="menu-footer__link">Project</a>
+                  </li>
+                  <li class="menu-footer__item">
+                    <a href="#" class="menu-footer__link">How It Work With Us</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <!-- 02 -->
+            <div class="footer__column">
+              <div class="footer__label">Follow</div>
+              <nav class="footer__menu menu-footer">
+                <ul class="menu-footer__list">
+                  <li class="menu-footer__item">
+                    <a href="#" class="menu-footer__link">Instagram</a>
+                  </li>
+                  <li class="menu-footer__item">
+                    <a href="#" class="menu-footer__link">Facebook</a>
+                  </li>
+                  <li class="menu-footer__item">
+                    <a href="#" class="menu-footer__link">LinkedIn</a>
+                  </li>
+                  <li class="menu-footer__item">
+                    <a href="#" class="menu-footer__link">Youtube</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <!-- 03 -->
+          </div>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <div class="footer__container container">
+            <div class="footer__copy">
+                2019 © All rights reserved. 
+            </div>
+          </div>
+        </div>
+      </footer>
+        <img class="ellipse__back1" src="img/Ellipse1.png" alt="">
+        <img class="ellipse__back2" src="img/Ellipse2.png" alt="">
+        <img class="ellipse__back3" src="img/Ellipse3.png" alt="">
+        <img class="ellipse__back4" src="img/Ellipse4.png" alt="">
+        <img class="ellipse__back5" src="img/Ellipse5.png" alt="">
+      <script src="js/script.js"></script>
+</body>
+</html>
